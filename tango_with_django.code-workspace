@@ -4,5 +4,24 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.linting.pep8Enabled": true,
+		"python.linting.pylintPath": "C:\\Users\\jaroslavp\\Anaconda3\\envs\\rango\\Scripts\\pylint",
+		"python.linting.pylintArgs": [
+			"--load-plugins",
+			"pylint_django"
+		],
+		"python.linting.pylintEnabled": true,
+		"editor.formatOnSave": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			".vscode": true,
+			"**/*.pyc": true,
+			"**/__pycache__/": true
+		}
+	}
 }
