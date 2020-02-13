@@ -12,7 +12,6 @@
 			"pylint_django"
 		],
 		"python.linting.pylintEnabled": true,
-		"editor.formatOnSave": true,
 		"files.exclude": {
 			"**/.git": true,
 			"**/.svn": true,
